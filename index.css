@@ -1,0 +1,251 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html,
+body {
+  position: relative;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-color: #ececec;
+  font-size: 1.6vh;
+  position: relative;
+}
+/* header design */
+/* .margin main section */
+.margin_L_R {
+  margin: 0 5vw;
+}
+.full_width {
+  height: 9vh;
+  width: 100%;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  top: 0px;
+  z-index: 2;
+  background-color: #ececec;
+}
+header {
+  /* margin: 0 5vw; */
+  display: flex;
+  align-items: center;
+  padding: 0.5% 0%;
+  font-size: 1.3rem;
+}
+/* header left */
+#header_left {
+  display: flex;
+  align-items: center;
+  width: 60%;
+}
+.logo{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.name {
+  border-left: 2px solid darkgrey;
+  padding-left: 2%;
+  margin-left: 2%;
+}
+/* header right */
+#header_rigth {
+  width: 40%;
+  text-align: right;
+  margin-right: 3vw;
+}
+.menu i{
+font-size: 3rem;
+color: rgb(16, 163, 127);
+}
+/* page main section */
+#mainpage {
+  margin: 14vh 5vw 5vh 5vw;
+  display: flex;
+}
+
+/* page main left */
+#main_left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  font-size: 2.2rem;
+  justify-content: center;
+}
+.mgreen {
+  color: rgb(16, 163, 127);
+}
+/* main button */
+#main_buttons {
+  padding: 1%;
+}
+
+.btn {
+  background-color: rgb(16, 163, 127);
+  color: white;
+  border: none;
+  margin-top: 5vh;
+  padding: 2%;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  width: 35%;
+}
+.btn:hover {
+  background-color: #ececec;
+  color: rgb(16, 163, 127);
+}
+/* main page right */
+#main_rigth {
+  position: relative;
+  z-index: 1;
+  width: 50%;
+  height: 50vh;
+  background: url(mainpicture-01.jpg) center center;
+  border-radius: 10px;
+}
+
+/* project secton */
+.projectstitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+.line {
+  border-bottom: 2px solid rgb(16, 163, 127);
+  width: 100%;
+  padding: 5px;
+}
+.project_heading {
+  color: #a5a5a5;
+  text-align: center;
+  margin: 2vh 0;
+}
+/* html css & JS Project section */
+.project_main {
+  font-size: 1.2rem;
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+.card_size {
+  width: 32%;
+}
+.card {
+  border-radius: 10px;
+  width: 100%;
+  background-color: white;
+}
+.card_tetx {
+  margin: 1vh 1vw;
+}
+.card_img {
+  width: 100%;
+  height: 30vh;
+  border-radius: 10px;
+}
+.project_btn {
+  background-color: rgb(16, 163, 127);
+  color: white;
+  border: none;
+  margin-top: 2vh;
+  padding: 2%;
+  font-weight: bold;
+  margin: 1vh 0;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  width: 40%;
+}
+
+/* contact_details */
+.contact_details {
+  margin-top: 2vh;
+  width: 100%;
+  height: 25vh;
+  background-color:#374151;
+  display: flex;
+}
+.contact_containt {
+  width: 50%;
+}
+.contact_containt ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 1.3rem;
+}
+.contact_containt ul>li{
+  font-size: 2rem;
+  font-weight: 900;
+}
+.contact_containt li {
+  list-style: none;
+  color: white;
+}
+.contact_containt li i {
+  padding-right: 1vw;
+}
+.contact_containt a {
+  text-decoration: none;
+}
+/* contact Social Medial */
+.social_media {
+  width: 15%;  
+}
+.social_media ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 2vh;
+    justify-content: space-around;
+    font-size: 1.5rem;
+  }
+
+.social_media a{
+    text-decoration: none;
+   }
+   .social_media li
+   {
+    list-style: none;
+    color: #374151;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+   }
+   .social_media li:hover
+   {
+    list-style: none;
+    background-color:rgb(16, 163, 127);
+    color: white;
+   }
+   
+/* copyright */
+.copright {
+    display: flex;
+    padding: 2vh 0vw;
+    font-size: 1rem;
+    flex-direction: row;
+  }
+  .copright p {
+    color: #374151;
+    padding: 2vh 0vw;
+  }
+  
