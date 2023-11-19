@@ -1,18 +1,18 @@
 /* media Query */
 @media (max-width:750px) {
-    .project_main{
+    header{
         flex-direction: column;
     }
     
-    #main_left{
+    #header_left{
         width: 100%;
     }
-    #main_rigth{
+    #header_rigth{
 
         width: 100%;
         margin: 3vh 0;
     }
-    #mainpage{
+    .project_main{
         flex-wrap: wrap;
     }
     .card_size{
