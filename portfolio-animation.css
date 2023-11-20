@@ -1,0 +1,22 @@
+.btn::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background-color:black;
+    color: cyan;
+    left: 0%;
+    top: 0%;
+    transition: all linear 0.5s;
+  }
+
+  .btn:hover::after{
+    background-color: red;
+    width: 100%;
+    
+  }
+  /* header button animation */
+  @keyframes header_btn {
+
+    
+  }

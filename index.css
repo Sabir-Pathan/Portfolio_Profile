@@ -97,11 +97,10 @@ header{
   border-radius: 10px;
   font-size: 1.5rem;
   width: 35%;
+  position: relative;
+  /* overflow: hidden; */
 }
-.btn:hover {
-  background-color: #ececec;
-  color: rgb(16, 163, 127);
-}
+
 /* main page right */
 #header_rigth {
   position: relative;
@@ -275,4 +274,4 @@ header{
     margin: 20px;
     position: absolute;
   }
-  
+ 
