@@ -1,22 +1,21 @@
-.btn::after {
-    content: "";
-    position: absolute;
-    width: 0%;
-    height: 100%;
-    background-color:black;
-    color: cyan;
-    left: 0%;
-    top: 0%;
-    transition: all linear 0.5s;
-  }
+.btn::after{
+  content: "";
+  width: 35%;
+  height: 150%;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50% , -50%) scale(0);
+  transition: all linear 0.4s;
+  z-index:-1;
+}
 
-  .btn:hover::after{
-    background-color: red;
-    width: 100%;
-    
-  }
-  /* header button animation */
-  @keyframes header_btn {
-
-    
-  }
+.btn:hover::after{
+  transform: translate(-50% , -50%) scale(3);
+}
+.btn:hover .btn_icon{
+  color:white;
+  font-weight: 900;
+}
