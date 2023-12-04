@@ -112,7 +112,7 @@ header{
   z-index: 1;
   width: 50%;
   height: 50vh;
-  background: url(mainpicture-01.jpg) center center;
+  background: url(/Gallary/mainpicture-01.jpg) center center;
   border-radius: 10px;
 }
 
